@@ -1,0 +1,580 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 6rem;
+  position: fixed;
+  font-family: "noto serif display";
+  z-index: 99;
+  background-color: #000;
+}
+
+header > #menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+#logo {
+  width: 320px;
+  margin: 0 auto;
+}
+
+#login {
+  width: 90px;
+  margin: 0 auto;
+  padding: 20px;
+  opacity: 70%;
+}
+#login:hover {
+  opacity: 1;
+}
+
+#menu > li .model + .digital + .world {
+  font-weight: bold;
+  opacity: 80%;
+  opacity: 70%;
+}
+
+#menu > li a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.model {
+  width: 110px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.model:hover {
+  background-color: #111;
+}
+
+.model_menu1 {
+  width: 600px;
+  height: 500px;
+  background-color: #111;
+  padding: 30px;
+  list-style: none;
+  line-height: 3rem;
+  text-align: left;
+  position: fixed;
+  visibility: hidden;
+}
+
+.model_menu1 > li {
+  opacity: 70%;
+  cursor: pointer;
+  width: 300px;
+}
+.model_menu1 > li:hover {
+  opacity: 100%;
+}
+
+.model_menu2 {
+  width: 300px;
+  height: 400px;
+  padding: 0 30px 30px 30px;
+  list-style: none;
+  line-height: 3rem;
+  text-align: left;
+  position: fixed;
+  margin-left: 300px;
+  visibility: hidden;
+  margin-top: 50px;
+}
+
+.model_menu2 img {
+  width: 50px;
+}
+
+.model_menu2 > li {
+  opacity: 70%;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  align-content: center;
+  margin-top: -10px;
+}
+
+.model_menu2 > li:hover {
+  opacity: 1;
+}
+
+.model:hover > .model_menu1 {
+  visibility: visible;
+}
+.model:hover > .model_menu2 {
+  visibility: visible;
+}
+
+.digital {
+  width: 250px;
+  height: 100px;
+  line-height: 100px;
+}
+.digital:hover {
+  background-color: #111;
+}
+
+.digital_menu1 {
+  width: 330px;
+  height: 380px;
+  background-color: #111;
+  padding: 30px;
+  list-style: none;
+  line-height: 3rem;
+  text-align: left;
+  position: fixed;
+  visibility: hidden;
+}
+
+.digital_menu1 > li {
+  opacity: 70%;
+  cursor: pointer;
+  width: 300px;
+}
+.digital_menu1 > li:hover {
+  opacity: 100%;
+}
+
+.digital_menu2 {
+  width: 300px;
+  height: 150px;
+  padding: 0 30px 30px 30px;
+  list-style: none;
+  line-height: 3rem;
+  text-align: left;
+  position: fixed;
+  margin-left: 300px;
+  visibility: hidden;
+  top: 328px;
+}
+
+.digital_menu2 > li {
+  opacity: 70%;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  align-content: center;
+}
+
+.digital_menu2 > li:hover {
+  opacity: 1;
+}
+
+.digital:hover > .digital_menu1 {
+  visibility: visible;
+}
+.m1_a:hover > .digital_menu2 {
+  visibility: visible;
+}
+
+.world {
+  width: 190px;
+  height: 100px;
+  line-height: 100px;
+}
+.world:hover {
+  background-color: #111;
+}
+
+.world_menu1 {
+  width: 330px;
+  height: 550px;
+  background-color: #111;
+  padding: 30px;
+  list-style: none;
+  line-height: 3rem;
+  text-align: left;
+  position: fixed;
+  visibility: hidden;
+}
+
+.world_menu1 > li {
+  opacity: 70%;
+  cursor: pointer;
+  width: 300px;
+}
+.world_menu1 > li:hover {
+  opacity: 100%;
+}
+
+.world_menu2 {
+  width: 160px;
+  height: 110px;
+  padding: 0 30px 30px 20px;
+  list-style: none;
+  line-height: 3rem;
+  text-align: left;
+  position: fixed;
+  margin-left: 300px;
+  visibility: hidden;
+  top: 380px;
+}
+
+.world_menu2 > li {
+  opacity: 70%;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  align-content: center;
+}
+
+.world_menu2 > li:hover {
+  opacity: 1;
+}
+
+.world:hover > .world_menu1 {
+  visibility: visible;
+}
+.m1_g:hover > .world_menu2 {
+  visibility: visible;
+}
+
+/* Content */
+#content {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  color: #fff;
+}
+
+#content::-webkit-scrollbar {
+  display: none;
+}
+
+/* section1 */
+
+#section {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+  margin: 0 auto;
+}
+
+#content > div:nth-child(1) > img {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 80%;
+}
+
+#content > div:nth-child(1) > .maintxt {
+  font-family: "noto serif KR";
+  font-size: 2rem;
+
+  width: 100%;
+  margin-top: 100px;
+  padding: 10%;
+  transform: translateY(-200%);
+}
+
+#content > div:nth-child(1) > .maintxt > span {
+  font-family: "noto serif display";
+}
+
+/* section2 */
+
+#content > div:nth-child(2) > #me {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  top: 6rem;
+}
+
+#content > div:nth-child(2) > #me > .name2 {
+  margin-left: 12rem;
+  padding-top: 3rem;
+  font-size: 1rem;
+  font-family: "noto serif display";
+}
+
+#content > div:nth-child(2) > #me > #app1 {
+  width: 50%;
+  margin-left: 2rem;
+  transform: translateY(-10%);
+  float: left;
+  position: absolute;
+}
+/*  .txt4 hover시 나타나는 이미지 원하는데 코딩짜는 걸 못하고 있음 */
+#content > div:nth-child(2) > #me > #app2 {
+  width: 50%;
+  margin-left: 2rem;
+  transform: translateY(-10%);
+  float: left;
+  z-index: 1;
+  opacity: 0;
+}
+
+#content > div:nth-child(2) > #txtwrap {
+  font-family: "noto serif KR";
+  /* width: 50%; */
+  height: 50vh;
+  margin: 0 auto;
+  /* transform: translateX(50%); */
+  margin-top: 10%;
+  padding-right: 7rem;
+}
+
+#content > div:nth-child(2) > #txtwrap > .txt1 {
+  font-size: 2rem;
+}
+
+#content > div:nth-child(2) > #txtwrap > .txt3 {
+  margin-top: 4rem;
+  cursor: pointer;
+  border-top: 0.5px solid #fff;
+  border-bottom: 0.5px solid #fff;
+  line-height: 4rem;
+  display: flex;
+}
+
+#content > div:nth-child(2) > #txtwrap > .txt4 {
+  cursor: pointer;
+  border-bottom: 0.5px solid #fff;
+  line-height: 4rem;
+  display: flex;
+}
+
+#content > div:nth-child(2) > #txtwrap > .txt3 > hr {
+  border: 0.5px;
+}
+
+#content > div:nth-child(2) > #txtwrap > .downloader1 {
+  padding-top: 10rem;
+}
+
+#content > div:nth-child(2) > #txtwrap > .downloader1 > a {
+  padding-right: 3rem;
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: white;
+}
+
+/* section3 */
+
+#content > div:nth-child(3) > #txtwrap {
+  width: 38%;
+  height: 50vh;
+  transform: translateY(30%);
+  text-align: right;
+}
+
+#content > div:nth-child(3) > #txtwrap > .name3 {
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 20%;
+  font-family: "noto serif display";
+}
+
+#content > div:nth-child(3) > #txtwrap > .txt1 {
+  padding-top: 6rem;
+  padding-left: 10%;
+}
+
+#content > div:nth-child(3) > #txtwrap > .txt2 {
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 5rem;
+}
+
+#content > div:nth-child(3) > img {
+  margin-left: 40%;
+  transform: translateY(-40%);
+}
+
+#content > div:nth-child(3) > #txtwrap > .downloader2 {
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 5rem;
+}
+
+#content > div:nth-child(3) > #txtwrap > .downloader2 > a {
+  padding-right: 3rem;
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: white;
+}
+
+#content > div:nth-child(4) > #txtBox {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: 430px 430px 430px 430px;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+  font-family: "noto serif display";
+}
+
+#content > div:nth-child(4) > #txtBox > a {
+  text-decoration: none;
+  color: #fff;
+  z-index: 2;
+  /* cursor: pointer; 가 먹질 않음 */
+}
+
+#content > div:nth-child(4) > #txtBox > a:nth-child(1) {
+  display: grid;
+  margin-top: 6.1rem;
+  height: 90vh;
+  text-align: center;
+  align-items: center;
+  border-right: 1px solid #000;
+  cursor: pointer;
+}
+#content > div:nth-child(4) > #txtBox > a:nth-child(2) {
+  display: grid;
+  margin-top: 6.1rem;
+  height: 90vh;
+  text-align: center;
+  align-items: center;
+  border-right: 1px solid #000;
+}
+#content > div:nth-child(4) > #txtBox > a:nth-child(3) {
+  display: grid;
+  margin-top: 6.1rem;
+  height: 90vh;
+  text-align: center;
+  align-items: center;
+  border-right: 1px solid #000;
+}
+
+#content > div:nth-child(4) > #txtBox > a:nth-child(4) {
+  display: grid;
+  margin-top: 6.1rem;
+  height: 90vh;
+  text-align: center;
+  align-items: center;
+}
+
+#content > div:nth-child(4) > img {
+  width: 100vw;
+  margin-top: 6rem;
+  transform: translateY(-111%);
+  z-index: -99;
+  opacity: 80%;
+}
+
+#content > div:nth-child(7) {
+  background-color: plum;
+}
+#content > div:nth-child(8) {
+  background-color: violet;
+}
+#content > div:nth-child(9) {
+  background-color: palevioletred;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 300px;
+  font-family: "Noto Sans KR";
+  font-size: small;
+  opacity: 90%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 0;
+  background-color: violet;
+}
+
+footer > #ft_box {
+  width: 100%;
+  height: 300px;
+  padding: 3rem;
+}
+
+#ft_box > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 3rem;
+  transform: translateY(-200%);
+}
+
+#ft_box > li {
+  width: 50%;
+  list-style: none;
+}
+
+#ft_box > img .logo {
+  width: 200px;
+}
+
+#ft_box > ul > .ft {
+  opacity: 90%;
+  cursor: pointer;
+}
+#ft_box > ul > .ft:hover {
+  opacity: 1;
+}
+
+#ft_box > #ft_wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  transform: translateY(-250%);
+  line-height: 3rem;
+  background-color: navy;
+  display: flex;
+}
+
+#ft_wrap > .ft2 {
+  float: left;
+}
+#ft_wrap > .ft3 {
+  float: left;
+}
+#ft_wrap > .ft5 {
+  float: left;
+}
+#ft_wrap > .ft6 {
+  float: left;
+}
+#ft_wrap > .ft7 {
+  float: left;
+}
+
+#ft_box > #ft_sns {
+  width: 200px;
+  float: right;
+  transform: translateY(-230%);
+  cursor: pointer;
+}
+
+#ft_sns > a > img {
+  width: 50px;
+  opacity: 70%;
+}
+
+#ft_sns > a > img:hover {
+  opacity: 1;
+}
+
+p {
+  cursor: pointer;
+}
