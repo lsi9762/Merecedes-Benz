@@ -1,0 +1,802 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* Content */
+#container2 {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: none;
+}
+
+#container2 > #section1 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#container2 > #section1 > #name {
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+  top: 10rem;
+}
+
+#container2 > #section1 > img {
+  margin-top: 15rem;
+}
+
+#container2 > #section1 > #txtwrap {
+  width: 100%;
+  margin-top: 100px;
+  padding: 10%;
+  transform: translateY(-100%);
+}
+
+#container2 > #section1 > #txtwrap > .txt1 {
+  margin-bottom: 90px;
+}
+
+#container2 > #section1 > #txtwrap > .downloader3 {
+  margin-top: 5rem;
+}
+
+#container2 > #section1 > #txtwrap > .downloader3 > a {
+  padding-right: 3rem;
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: white;
+  cursor: pointer;
+}
+
+/*  */
+#container2 > #section2 {
+  width: 100%;
+  height: 100vh;
+}
+
+#container2 > #section2 > #select {
+  width: 100%;
+  height: 100px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#container2 > #section2 > #select > .sel > a {
+  font-family: "noto serif display";
+  text-decoration: none;
+  color: #fff;
+}
+
+#container2 > #section2 > #select > .sel > a:link {
+  opacity: 70%;
+}
+
+#container2 > #section2 > #select > .sel > a:hover {
+  opacity: 100%;
+}
+
+#container2 > #section2 > #select > .sel > a:active {
+  opacity: 100%;
+}
+
+#container2 > #section2 > #select > .sel > a:visited {
+  opacity: 100%;
+}
+
+#container2 > #section2 > #select > #highlight {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#container2 > #section2 > #select > #box {
+  width: 10%;
+  height: 100px;
+}
+
+#container2 > #section2 > #select > #service {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#s_content1 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* Convenience */
+
+#s_content1 > p {
+  padding: 1.5rem;
+  text-align: center;
+  font-family: "noto serif display";
+  font-size: 1rem;
+}
+
+#banner {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+#bannerBox {
+  width: 900px;
+  height: 50vh;
+}
+
+#bannerBox > ul {
+  list-style: none;
+  width: 100%;
+  height: 50vh;
+  justify-items: center;
+  transition: all 1s;
+  display: inline-flex;
+  align-items: center;
+}
+
+#bannerBox > ul > li {
+  min-width: 900px;
+  min-height: 30vh;
+  text-align: center;
+}
+
+#bannerBox > ul > li > img {
+  width: 70%;
+  opacity: 70%;
+}
+
+/* 충전 및 공조 설정 프로그램 */
+#bannerBox > ul > li:first-child > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox > ul > li:first-child > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox > ul > li:first-child > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 13rem;
+  z-index: 99;
+}
+
+/* 링궈트로닉 온라인 음성 인식 기능 */
+#bannerBox > ul > li:nth-child(2) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox > ul > li:nth-child(2) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox > ul > li:nth-child(2) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 13rem;
+  z-index: 99;
+}
+
+/* 제 3자 제공자 인터페이스 */
+#bannerBox > ul > li:nth-child(3) > img {
+  opacity: 50%;
+}
+
+#bannerBox > ul > li:nth-child(3) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox > ul > li:nth-child(3) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox > ul > li:nth-child(3) > .s1_content > span {
+  font-family: "noto serif display";
+}
+
+#bannerBox > ul > li:nth-child(3) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 13rem;
+  z-index: 99;
+}
+
+/* 버튼 */
+#banner > #prevBtn,
+#nextBtn {
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  z-index: 98;
+}
+
+/* Navigation */
+
+#banner2 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+#bannerBox2 {
+  width: 900px;
+  height: 50vh;
+}
+
+#bannerBox2 > ul {
+  list-style: none;
+  width: 100%;
+  height: 50vh;
+  justify-items: center;
+  transition: all 1s;
+  display: inline-flex;
+  align-items: center;
+}
+
+#bannerBox2 > ul > li {
+  min-width: 900px;
+  min-height: 30vh;
+  text-align: center;
+}
+
+#bannerBox2 > ul > li > img {
+  width: 70%;
+  opacity: 70%;
+}
+
+/* 하드디스크 내비게이션 */
+#bannerBox2 > ul > li:first-child > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox2 > ul > li:first-child > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox2 > ul > li:first-child > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+#bannerBox2 > ul > li:first-child > .s1_content > span {
+  color: #f2f2f2;
+}
+
+/* 내비게이션 서비스 */
+#bannerBox2 > ul > li:nth-child(2) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox2 > ul > li:nth-child(2) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+  line-height: 22px;
+}
+
+#bannerBox2 > ul > li:nth-child(2) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+/* 온라인지도 업데이트 */
+#bannerBox2 > ul > li:nth-child(3) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox2 > ul > li:nth-child(3) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+  line-height: 22px;
+}
+
+#bannerBox2 > ul > li:nth-child(3) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+#banner2 > #prevBtn2,
+#nextBtn2 {
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  z-index: 98;
+}
+
+/* security & Service */
+
+#banner3 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+#bannerBox3 {
+  width: 900px;
+  height: 50vh;
+}
+
+#bannerBox3 > ul {
+  list-style: none;
+  width: 100%;
+  height: 50vh;
+  justify-items: center;
+  transition: all 1s;
+  display: inline-flex;
+  align-items: center;
+}
+
+#bannerBox3 > ul > li {
+  min-width: 900px;
+  min-height: 30vh;
+  text-align: center;
+}
+
+#bannerBox3 > ul > li > img {
+  width: 70%;
+  opacity: 70%;
+}
+
+/* EQ 전용 네비게이션 */
+#bannerBox3 > ul > li:first-child > img {
+  opacity: 60%;
+}
+
+#bannerBox3 > ul > li:first-child > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox3 > ul > li:first-child > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox3 > ul > li:first-child > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+/* 권장목적지 */
+#bannerBox3 > ul > li:nth-child(2) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox3 > ul > li:nth-child(2) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox3 > ul > li:nth-child(2) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 80;
+}
+
+/* Car-to-X 커뮤니케이션 */
+#bannerBox3 > ul > li:nth-child(3) > img {
+  opacity: 50%;
+}
+
+#bannerBox3 > ul > li:nth-child(3) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox3 > ul > li:nth-child(3) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox3 > ul > li:nth-child(3) > .s1_content > span {
+  font-family: "noto serif display";
+}
+
+#bannerBox3 > ul > li:nth-child(3) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 90;
+}
+
+/* 버튼 */
+#banner3 > #prevBtn3,
+#nextBtn3 {
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  z-index: 98;
+}
+
+/* Infortainment */
+
+#banner4 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+#bannerBox4 {
+  width: 900px;
+  height: 50vh;
+}
+
+#bannerBox4 > ul {
+  list-style: none;
+  width: 100%;
+  height: 50vh;
+  justify-items: center;
+  transition: all 1s;
+  display: inline-flex;
+  align-items: center;
+}
+
+#bannerBox4 > ul > li {
+  min-width: 900px;
+  min-height: 30vh;
+  text-align: center;
+}
+
+#bannerBox4 > ul > li > img {
+  width: 70%;
+  opacity: 70%;
+}
+
+/* 디지털라디오 */
+#bannerBox4 > ul > li:first-child > img {
+  opacity: 60%;
+}
+
+#bannerBox4 > ul > li:first-child > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox4 > ul > li:first-child > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox4 > ul > li:first-child > .s1_title > span {
+  font-family: "noto serif display";
+}
+
+#bannerBox4 > ul > li:first-child > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+/* 스마트폰 연동 */
+#bannerBox4 > ul > li:nth-child(2) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox4 > ul > li:nth-child(2) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox4 > ul > li:nth-child(2) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+/* 트랙페이스 */
+#bannerBox4 > ul > li:nth-child(3) > img {
+  opacity: 50%;
+}
+
+#bannerBox4 > ul > li:nth-child(3) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox4 > ul > li:nth-child(3) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox4 > ul > li:nth-child(3) > .s1_content > span {
+  font-family: "noto serif display";
+}
+
+#bannerBox4 > ul > li:nth-child(3) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+/* 인디비주얼 패키지 */
+#bannerBox4 > ul > li:nth-child(4) > img {
+  opacity: 50%;
+}
+
+#bannerBox4 > ul > li:nth-child(4) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+}
+
+#bannerBox4 > ul > li:nth-child(4) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#bannerBox4 > ul > li:nth-child(4) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 7rem;
+  z-index: 99;
+  text-align: center;
+}
+
+#bannerBox4 > ul > li:nth-child(4) > .s1_content2 {
+  position: absolute;
+  color: #f2f2f2;
+  width: 900px;
+  margin-top: 13rem;
+  z-index: 99;
+  text-align: left;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+/* 버튼 */
+#banner4 > #prevBtn4,
+#nextBtn4 {
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  z-index: 98;
+}
+
+/* Basic Service */
+
+#banner5 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+#bannerBox5 {
+  width: 900px;
+  height: 50vh;
+}
+
+#bannerBox5 > ul {
+  list-style: none;
+  width: 100%;
+  height: 50vh;
+  justify-items: center;
+  transition: all 1s;
+  display: inline-flex;
+  align-items: center;
+}
+
+#bannerBox5 > ul > li {
+  min-width: 900px;
+  min-height: 30vh;
+  text-align: center;
+}
+
+#bannerBox5 > ul > li > img {
+  width: 70%;
+  opacity: 70%;
+}
+
+/* 기본 서비스 */
+#bannerBox5 > ul > li:first-child > img {
+  opacity: 60%;
+}
+
+#bannerBox5 > ul > li:first-child > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox5 > ul > li:first-child > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox5 > ul > li:first-child > .s1_title > span {
+  font-family: "noto serif display";
+}
+
+#bannerBox5 > ul > li:first-child > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+/* 차량진단 */
+#bannerBox5 > ul > li:nth-child(2) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox5 > ul > li:nth-child(2) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox5 > ul > li:nth-child(2) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+/* 사고 복구 서비스 및 고장 관리 서비스 */
+
+#bannerBox5 > ul > li:nth-child(3) > img {
+  opacity: 60%;
+}
+
+#bannerBox5 > ul > li:nth-child(3) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#bannerBox5 > ul > li:nth-child(3) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+#bannerBox5 > ul > li:nth-child(3) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+}
+
+/* 정기점검 관리 */
+#bannerBox5 > ul > li:nth-child(4) > img {
+  opacity: 50%;
+}
+
+#bannerBox5 > ul > li:nth-child(4) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+}
+
+#bannerBox5 > ul > li:nth-child(4) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#bannerBox5 > ul > li:nth-child(4) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+  text-align: center;
+}
+
+/* 에코 디스플레이 */
+#bannerBox5 > ul > li:nth-child(5) > img {
+  opacity: 50%;
+}
+
+#bannerBox5 > ul > li:nth-child(5) > p {
+  font-family: "noto serif KR";
+  color: white;
+  line-height: 2rem;
+}
+
+#bannerBox5 > ul > li:nth-child(5) > .s1_title {
+  position: relative;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#bannerBox5 > ul > li:nth-child(5) > .s1_content {
+  position: absolute;
+  width: 900px;
+  margin-top: 11rem;
+  z-index: 99;
+  text-align: center;
+}
+
+/* 버튼 */
+#banner5 > #prevBtn5,
+#nextBtn5 {
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  z-index: 98;
+}

@@ -1,0 +1,92 @@
+.five-screen {
+  /* margin-bottom: 5000px; */
+  /* height: 100vh; */
+  /* padding-bottom: 500px; */
+  width: 100%;
+  /* margin: 0 auto; */
+  /* overflow: hidden; */
+}
+
+.five-screen_title {
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  margin-left: 10%;
+  font-size: 25px;
+}
+
+.five-main {
+  /* background-color: pink; */
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ttt {
+  width: 100%;
+  height: 50vh;
+  /* margin-left: 130px;
+  margin-right: 130px; */
+  color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+
+.five-main_feature {
+  margin-left: 90px;
+}
+
+.ttt ul {
+  display: flex;
+  padding-left: 60px;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+.ttt > ul > li {
+  display: flex;
+  width: 100vw;
+  /* justify-content: center; */
+}
+
+.five-list {
+  padding-left: 60px;
+}
+
+.five-list img {
+  height: 45vh;
+}
+
+.ttt p {
+  font-size: 20px;
+}
+
+.five-main_title {
+  padding-bottom: 140px;
+}
+
+.five-main_text_2 {
+  padding-top: 40px;
+}
+
+.five-left_icon {
+  /* margin-left: 150px; */
+  padding-left: 180px;
+}
+
+.five-right_icon {
+  padding-right: 180px;
+}
+
+.five-right_icon,
+.five-left_icon {
+  color: white;
+  display: block;
+  cursor: pointer;
+}

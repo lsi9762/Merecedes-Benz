@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* Content */
+
+#container1 {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+#container1 > #section1 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#container1 > #section1 > #name {
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+  top: 10rem;
+}
+
+#container1 > #section1 > img {
+  margin-top: 15rem;
+}
+
+#container1 > #section1 > #txtwrap {
+  width: 100%;
+  margin-top: 100px;
+  padding: 10%;
+  transform: translateY(-100%);
+}
+
+#container1 > #section1 > #txtwrap > .txt1 {
+  margin-bottom: 90px;
+}
+
+#container1 > #section1 > #txtwrap > .downloader3 {
+  margin-top: 5rem;
+}
+
+#container1 > #section1 > #txtwrap > .downloader3 > a {
+  padding-right: 3rem;
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: white;
+  cursor: pointer;
+}
+
+#container1 > #section2 {
+  width: 100%;
+  height: 800vh;
+}
+
+#container1 > #section2 > #select {
+  width: 100%;
+  height: 100px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#container1 > #section2 > #select > .sel > a {
+  font-family: "noto serif display";
+  text-decoration: none;
+  color: #fff;
+  opacity: 70%;
+}
+
+#container1 > #section2 > #select > .sel > a:hover {
+  opacity: 100%;
+}
+
+#container1 > #section2 > #select > #highlight {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#container1 > #section2 > #select > #box {
+  width: 10%;
+  height: 100px;
+}
+
+#container1 > #section2 > #select > #service {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/*  */
+
+#container1 > #section2 > #h_content1 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+  align-items: center;
+}
+
+#container1 > #section2 > #h_content1 > img {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+#container1 > #section2 > #h_content1 > div {
+  width: 100%;
+  height: 70vh;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#container1 > #section2 > #h_content1 > div > #titleEng {
+  font-size: 2rem;
+  font-family: "noto serif display";
+  line-height: 3em;
+}
+
+#container1 > #section2 > #h_content1 > div > #titleKr {
+  font-size: 1.5em;
+  font-family: "noto serif KR";
+}
+
+#container1 > #section2 > #h_content1 > div > #content_1 {
+  font-family: "noto serif KR";
+  line-height: 2em;
+}
+
+#container1 > #section2 > #h_content1 > div > #content_2 {
+  font-family: "noto serif KR";
+  line-height: 2em;
+}
+
+/*  */
+
+#container1 > #section2 > #h_content2 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+  align-items: center;
+}
+
+#container1 > #section2 > #h_content2 > img {
+  width: 70%;
+  margin-left: 10%;
+}
+
+#container1 > #section2 > #h_content2 > div {
+  width: 100%;
+  height: 70vh;
+  margin-left: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container1 > #section2 > #h_content2 > div > #titleEng {
+  font-size: 2rem;
+  font-family: "noto serif display";
+  line-height: 3em;
+}
+
+#container1 > #section2 > #h_content2 > div > #titleKr {
+  font-size: 1.5em;
+  font-family: "noto serif KR";
+}
+
+#container1 > #section2 > #h_content2 > div > #content_1 {
+  font-family: "noto serif KR";
+  line-height: 2em;
+}
+
+#container1 > #section2 > #h_content2 > div > #content_2 {
+  font-family: "noto serif KR";
+  line-height: 2em;
+}
+
+/*  */
+
+#container1 > #section2 > #h_content3 {
+  width: 100%;
+  height: 170vh;
+  margin: 0 auto;
+}
+
+#container1 > #section2 > #h_content3 > img {
+  width: 100%;
+  display: flex;
+
+  align-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+#container1 > #section2 > #h_content3 > #navi_content {
+  width: 100%;
+  height: 70vh;
+  margin: 0 auto;
+  grid-template-columns: 50% 50%;
+  grid-row-start: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: flex-start;
+}
+
+/*  */
+
+#container1 > #section2 > #h_content4 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#container1 > #section2 > #h_content4 > #moniter_content {
+  width: 100%;
+  height: 70vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#container1 > #section2 > #h_content4 > #moniter_content > p {
+  top: 10%;
+}
+
+#container1 > #section2 > #h_content4 > #moniter_content > img {
+  height: 70vh;
+}
+
+#container1 > #section2 > #h_content5 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#container1 > #section2 > #h_content5 > #urban {
+  width: 70%;
+  margin-left: 15%;
+  position: absolute;
+  margin-top: 23%;
+  z-index: 1;
+}
+
+#container1 > #section2 > #h_content5 > img {
+  width: 70%;
+  margin-left: 10%;
+  opacity: 70%;
+  z-index: 0;
+}
+
+#container1 > #section2 > #h_content5 > #content_2 {
+  margin-left: 10%;
+  margin-top: 2rem;
+  font-family: "noto serif KR";
+  line-height: 3em;
+}
+
+#container1 > #section2 > #h_content6 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#container1 > #section2 > #h_content6 > #mbux {
+  width: 70%;
+  margin-left: 15%;
+  position: absolute;
+  margin-top: 23%;
+  z-index: 1;
+  text-align: right;
+}
+
+#container1 > #section2 > #h_content6 > img {
+  width: 65%;
+  margin-left: 25%;
+  opacity: 60%;
+  z-index: 0;
+}
+
+#container1 > #section2 > #h_content6 > #content_2 {
+  margin-left: 25%;
+  margin-top: 2rem;
+  font-family: "noto serif KR";
+  line-height: 3em;
+}
+
+#container1 > #section2 > #h_content7 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#container1 > #section2 > #h_content7 > #music {
+  width: 70%;
+  margin-left: 15%;
+  position: absolute;
+  margin-top: 23%;
+  z-index: 1;
+}
+
+#container1 > #section2 > #h_content7 > img {
+  width: 70%;
+  margin-left: 10%;
+  opacity: 70%;
+  z-index: 0;
+}
+
+#container1 > #section2 > #h_content7 > #content_2 {
+  margin-left: 10%;
+  margin-top: 2rem;
+  font-family: "noto serif KR";
+  line-height: 3em;
+}

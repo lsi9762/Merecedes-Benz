@@ -1,0 +1,181 @@
+.ccc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 200px;
+}
+
+.third-screen_feature {
+  display: inline;
+}
+
+.third-screen-icon {
+  color: rgb(69, 75, 242);
+  position: absolute;
+  top: 58%;
+  left: 28%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.third-screen-icon-2 {
+  color: rgb(69, 75, 242);
+  position: absolute;
+  top: 55%;
+  left: 36%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.third-screen-icon-3 {
+  color: rgb(69, 75, 242);
+  position: absolute;
+  top: 42%;
+  left: 58.5%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.third-screen-icon-4 {
+  color: rgb(69, 75, 242);
+  position: absolute;
+  top: 31%;
+  left: 64%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.third-screen_feature-hidden {
+  position: absolute;
+  top: 22%;
+  left: 26%;
+  width: 80px;
+  display: none;
+}
+
+.third-screen_feature-hidden-2 {
+  position: absolute;
+  top: 22%;
+  left: 30%;
+  width: 80px;
+  display: none;
+}
+
+.third-screen_feature-hidden-3 {
+  position: absolute;
+  top: 19%;
+  left: 30%;
+  width: 80px;
+  display: none;
+}
+
+.third-screen_feature-hidden-4 {
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  width: 80px;
+  display: none;
+}
+
+.third-screen_feature-hidden_text {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  width: 700px;
+  margin-bottom: 140px;
+  opacity: 0.8;
+  color: white;
+}
+
+.third-screen_feature-hidden_text-2 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  width: 700px;
+  margin-bottom: 110px;
+  color: white;
+}
+
+.third-screen_feature-hidden_text-3 {
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 700px;
+  margin-bottom: 200px;
+  color: white;
+}
+
+.third-screen_feature-hidden_text-4 {
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 700px;
+  margin-bottom: 150px;
+  color: white;
+}
+
+.third-screen_feature-hidden_text h2,
+.third-screen_feature-hidden_text-2 h2,
+.third-screen_feature-hidden_text-3 h2,
+.third-screen_feature-hidden_text-4 h2 {
+  margin-bottom: 40px;
+}
+
+.third-screen_feature-hidden img,
+.third-screen_feature-hidden-2 img,
+.third-screen_feature-hidden-3 img,
+.third-screen_feature-hidden-4 img {
+  width: 400px;
+  border-radius: 30px;
+}
+
+.third-screen_feature-hidden-3 img {
+  transform: translate(300px, -130px);
+}
+
+.third-screen_feature-hidden-4 img {
+  transform: translate(300px, -90px);
+}
+
+.third-screen-icon i,
+.third-screen-icon-2 i,
+.third-screen-icon-3 i,
+.third-screen-icon-4 i {
+  animation: iconRotate 4s infinite;
+}
+
+@keyframes iconRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.third-screen-icon i:hover,
+.third-screen-icon-2 i:hover,
+.third-screen-icon-3 i:hover,
+.third-screen-icon-4 i:hover {
+  cursor: pointer;
+}
+
+.backBlack {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.third-screen_main-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.third-screen_main-subtitle {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}

@@ -1,0 +1,42 @@
+.link-screen {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  width: 1200px;
+  margin: 500px auto;
+}
+
+.link-screen_section1 > a,
+.link-screen_section2 > a,
+.link-screen_section3 > a,
+.link-screen_section4 > a,
+.link-screen_section5 > a,
+.link-screen_section6 > a,
+.link-screen_section7 > a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.link-screen_main-1,
+.link-screen_main-2 {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+.link-screen_section1,
+.link-screen_section2,
+.link-screen_section3,
+.link-screen_section5,
+.link-screen_section6 {
+  padding-right: 50px;
+}
+
+.section_title {
+  margin-bottom: 20px;
+}
+
+.section_link {
+  margin-top: 10px;
+  /* text-decoration: white underline; */
+}

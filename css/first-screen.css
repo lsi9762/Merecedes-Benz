@@ -1,0 +1,146 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first_screen {
+  background: url(../img/첫화면.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.main_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 18%;
+  color: white;
+  font-size: 80px;
+  font-weight: 500;
+  transition-delay: 3s;
+  /* backdrop-filter: blur(15px); */
+}
+
+.main_title p {
+  opacity: 0;
+  transition: all 1s ease-in;
+  cursor: default;
+  animation-name: titleUp;
+  animation-delay: 1s;
+  animation-duration: 15s;
+}
+
+/* .main_title p:hover {
+  opacity: 1;
+} */
+
+@keyframes titleUp {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.main_section_1,
+.main_section_2 {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+
+.main_section_1:hover,
+.main_section_2:hover {
+  opacity: 1;
+}
+
+.main_section_1 div {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main_section_2 div {
+  margin-left: 20px;
+}
+
+.feature_1,
+.feature_2,
+.feature_3,
+.feature_4 {
+  font-size: 40px;
+  font-weight: 500;
+  border: 4px solid black;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.37);
+  color: white;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature_3 {
+  font-size: 35px;
+}
+
+.feature_1 p:first-child,
+.feature_2 p:first-child,
+.feature_3 p:first-child,
+.feature_4 p:first-child {
+  font-size: 25px;
+}
+
+.feature_2 p:last-child,
+.feature_3 p:last-child {
+  font-size: 22px;
+}
+
+.main_section {
+  position: absolute;
+  top: 50%;
+  left: 33%;
+}
+
+.scroll-icon {
+  color: white;
+  z-index: 99;
+  opacity: 0.4;
+  position: absolute;
+  left: 50%;
+  top: 93%;
+  animation-name: scrollIcon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrollIcon {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
