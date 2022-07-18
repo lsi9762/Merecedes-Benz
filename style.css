@@ -1,0 +1,18 @@
+@import url(css/header.css);
+@import url(css/purchase-bar.css);
+@import url(css/first-screen.css);
+@import url(css/second-screen.css);
+@import url(css/third-screen.css);
+@import url(css/fourth-screen.css);
+@import url(css/five-screen.css);
+@import url(css/last-screen.css);
+@import url(css/link-screen.css);
+@import url(css/aos.css);
+@import url(css/conect.css);
+@import url(css/service.css);
+
+body {
+  background-color: black;
+  font-family: "noto serif display", serif;
+  font-family: "noto serif KR", serif;
+}
